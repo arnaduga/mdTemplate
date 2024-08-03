@@ -10,9 +10,9 @@ do
     for GOARCH in "${ARCH[@]}"
     do
         if [ "$GOOS" = "windows" ]; then
-            go build -o ../dist/${APPNAME}_${GOOS}_${GOARCH}.exe
+            go build -o ./dist/${APPNAME}_${GOOS}_${GOARCH}.exe
         else
-            go build -o ../dist/${APPNAME}_${GOOS}_${GOARCH}
+            go build -o ./dist/${APPNAME}_${GOOS}_${GOARCH}
         fi
     done
 done
