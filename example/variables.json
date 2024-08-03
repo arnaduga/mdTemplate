@@ -1,0 +1,56 @@
+{
+    "applicationName": "My wonderful Application",
+    "author": {
+        "name": "John Doe",
+        "email": "johndoe@example.com"
+    },
+    "sections": [
+        {
+            "title": "Section 1",
+            "content": "This is the content of section 1.",
+            "status": "inProgress",
+            "criterias": [
+                {
+                    "name": "This is a long criterai, section 1 number 1",
+                    "status": "inProgress",
+                    "attachments": [
+                        {
+                            "name": "Tests results",
+                            "file": "docs/test.pdf"
+                        },
+                        {
+                            "name": "Pentests results",
+                            "file": "docs/test.pdf"
+                        },
+                        {
+                            "name": "Load tests results",
+                            "file": "docs/test.pdf"
+                        },
+                        {
+                            "name": "Chaos tests results",
+                            "file": "docs/test.pdf"
+                        }
+                    ]
+                },
+                {
+                    "name": "This is a long criterai, section 1 number 2",
+                    "status": "done"
+                }
+            ]
+        },
+        {
+            "title": "Section 2",
+            "content": "This is the content of section 2.",
+            "criterias": [
+                {
+                    "name": "This is a long criterai, section 2 number 1",
+                    "status": "inProgress"
+                },
+                {
+                    "name": "This is a long criterai, section 2 number 2",
+                    "status": "inProgress"
+                }
+            ]
+        }
+    ]
+}
